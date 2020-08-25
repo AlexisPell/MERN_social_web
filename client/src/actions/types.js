@@ -4,7 +4,7 @@ export const REMOVE_ALERT = 'REMOVE_ALERT'
 // Register
 export const REGISTER_SUCCESS = 'REGISTER_SUCCESS'
 export const REGISTER_FAIL = 'REGISTER_FAIL'
-// Keep logged in/ or drop an err
+// Keep logged in
 export const USER_LOADED = 'USER_LOADED'
 export const AUTH_ERROR = 'AUTH_ERROR'
 // Login
@@ -14,6 +14,8 @@ export const LOGIN_FAIL = 'LOGIN_FAIL'
 export const LOGOUT = 'LOGOUT'
 // Profiles
 export const GET_PROFILE = 'GET_PROFILE'
+export const GET_PROFILES = 'GET_PROFILES'
+export const GET_REPOS = 'GET_REPOS'
 export const PROFILE_ERROR = 'PROFILE_ERROR'
 export const CLEAR_PROFILE = 'CLEAR_PROFILE'
 export const UPDATE_PROFILE = 'UPDATE_PROFILE'
